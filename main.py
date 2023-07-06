@@ -13,8 +13,8 @@ df = pd.read_csv('wil_ind.csv')
 subcity = pd.read_csv('kab_kec.csv')
 
 # Menentukan lokasi penyimpanan hasil scrapping
-path_indo = os.path.join('D:/FAYYYAD/PROGRES MAGANG/test2', 'Indonesia')
-path_prov = os.path.join('D:/FAYYYAD/PROGRES MAGANG/test2', 'Prov')
+path_indo = os.path.join('web99', 'Indonesia')
+path_prov = os.path.join('web99', 'Prov')
 header = {
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54'
 }
